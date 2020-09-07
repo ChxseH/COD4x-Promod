@@ -1,3 +1,9 @@
-# COD4x-Promod
+# CoD4X Promod
 
-Promod for COD4x.
+## Introduction
+
+> Promod, for 2020.
+
+## Compiling
+
+> To compile Promod, simply place "Mod_Files" contents into <cod4-root>/mods/promod/, then run compile.bat. The compiled mod should spit out in mods/nc_promod. Alternatively, we have releases available that include more content. (i.e. Final Killcam/No PB reminders).
