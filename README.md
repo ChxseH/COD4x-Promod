@@ -6,4 +6,8 @@
 
 ## Compiling
 
-> To compile Promod, simply place "Mod_Files" contents into <cod4-root>/mods/promod/, then run compile.bat. The compiled mod should spit out in mods/nc_promod. Alternatively, we have releases available that include more content. (i.e. Final Killcam/No PB reminders).
+> To compile Promod, simply place "Mod_Files" contents into <cod4-root>/mods/promod/, then run compile.bat. The compiled mod should spit out in mods/nc_promod. 
+
+## Releases
+
+Alternatively, we have releases available that include extras. (i.e. Final Killcams).
