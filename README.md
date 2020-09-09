@@ -10,4 +10,4 @@
 
 ## Releases
 
-Alternatively, we have releases available that include extras. (i.e. Final Killcams).
+> Alternatively, [we have releases available that include extras.](https://git.chasehall.net/NexusCore/COD4x-Promod/releases/latest) (i.e. Final Killcams).
