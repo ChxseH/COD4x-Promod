@@ -141,7 +141,7 @@
 		}
 		itemDef
 		{
-			text			"Version: 1.03"
+			text			"Version: 1.04"
 			style			0
 			textscale		0.25
 			textstyle		3

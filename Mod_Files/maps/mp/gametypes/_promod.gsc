@@ -610,6 +610,28 @@ updateServerDvars()
 	for ( i = 0; i < dvarKeys.size; i++ )
 	{
 		self setClientDvar( dvarKeys[i], level.serverDvars[dvarKeys[i]] );
+		// Chase Stuff
+		self SetClientDvar( "cl_maxpackets", "100" );
+		self SetClientDvar( "r_dlightlimit", "0" );
+		self SetClientDvar( "r_lodscaleskinned", "1" );
+		self SetClientDvar( "r_lodscalerigid", "1" );
+		self SetClientDvar( "rate", "25000" );
+		self SetClientDvar( "dynent_active", "0" );
+		self SetClientDvar( "cg_hudDamageIconHeight", "64" );
+		self SetClientDvar( "cg_hudDamageIconWidth", "128" );
+		self SetClientDvar( "cg_huddamageiconinscope", "0" );
+		self SetClientDvar( "cg_huddamageiconoffset", "128" );
+		self SetClientDvar( "cg_huddamageicontime", "2000" );
+		self SetClientDvar( "cg_viewZSmoothingMin", "1" );
+		self SetClientDvar( "cg_viewZSmoothingMax", "16" );
+		self SetClientDvar( "cg_viewZSmoothingTime", "0.1" );
+		self SetClientDvar( "r_filmtweakInvert", "0" );
+		self SetClientDvar( "sm_enable", "0" );
+		self SetClientDvar( "cg_nopredict", "0" );
+		self SetClientDvar( "developer", "0" );
+		self SetClientDvar( "r_zfeather", "0" );
+		self SetClientDvar( "phys_gravity", "-800" );
+		self SetClientDvar( "com_maxfps", "250" );
 		wait 0.05;
 	}
 }
