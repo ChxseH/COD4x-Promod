@@ -3,7 +3,7 @@ Basically what it says on the tin.
 
 Notes:
 
-**When you are ready to use this mod on a server, place everything into a zip and rename it to `z_promod.iwd` and distribute that through FastDL, or any way you want. This is required.**
+**When you are ready to use this mod on a server, take your already compiled version and distribute that through FastDL, or any way you want. This is required.**
 
 * I ship some weird defaults in `promod_ruleset/custom_public.gsc` which you should change before using this mod.
 
