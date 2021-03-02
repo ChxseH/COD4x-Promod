@@ -2246,11 +2246,11 @@ header()
 
 	level waittill( "header_destroy" );
 
-	if ( isDefined( promod_ver ) )
-		promod_ver destroy();
+	//if ( isDefined( promod_ver ) )
+	//	promod_ver destroy();
 
-	if ( isDefined( promod_mode ) )
-		promod_mode destroy();
+	//if ( isDefined( promod_mode ) )
+	//	promod_mode destroy();
 }
 
 disableBombsites()

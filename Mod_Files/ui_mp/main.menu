@@ -111,7 +111,7 @@
 		}
 		itemDef
 		{
-			text			"NexusCore Promod"
+			text			"Promod"
 			style			0
 			textscale		0.3
 			textstyle		3
@@ -126,71 +126,11 @@
 		}
 		itemDef
 		{
-			text			"nexuscore.us/discord"
+			text			"chse.xyz/donate"
 			style			0
 			textscale		0.2
 			textstyle		3
 			rect			325 199 110 20
-			textalign		ITEM_ALIGN_CENTER
-			textalignx		-55
-			textaligny		0
-			textfont		UI_FONT_NORMAL
-			forecolor		1 1 1 1
-			visible			when( localvarBool( ui_about ) );
-			decoration
-		}
-		itemDef
-		{
-			text			"Version: 1.04"
-			style			0
-			textscale		0.25
-			textstyle		3
-			rect			239 216 95 20
-			textalign		ITEM_ALIGN_LEFT
-			textalignx		0
-			textaligny		0
-			textfont		UI_FONT_NORMAL
-			forecolor		1 1 1 1
-			visible			when( localvarBool( ui_about ) );
-			decoration
-		}
-		itemDef
-		{
-			text			"Based off of v2.20 NE by Ingram & Others."
-			style			0
-			textscale		0.25
-			textstyle		3
-			rect			239 227 95 20
-			textalign		ITEM_ALIGN_LEFT
-			textalignx		0
-			textaligny		0
-			textfont		UI_FONT_NORMAL
-			forecolor		1 1 1 1
-			visible			when( localvarBool( ui_about ) );
-			decoration
-		}
-		itemDef
-		{
-			text			"Former developers: raf1, MavLP, bulletworm, Trivve"
-			style			0
-			textscale		0.25
-			textstyle		3
-			rect			230 246 95 20
-			textalign		ITEM_ALIGN_LEFT
-			textalignx		0
-			textaligny		0
-			textfont		UI_FONT_NORMAL
-			forecolor		1 1 1 1
-			visible			when( localvarBool( ui_about ) );
-			decoration
-		}
-		itemDef
-		{
-			text			"Thanks to everyone else involved in Promod!"
-			style			0
-			textscale		0.25
-			textstyle		3
-			rect			325 264 110 20
 			textalign		ITEM_ALIGN_CENTER
 			textalignx		-55
 			textaligny		0

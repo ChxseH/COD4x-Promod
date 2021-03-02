@@ -1,5 +1,24 @@
-# CoD4X Promod
+# Promod for CoD4X
+Basically what it says on the tin.
 
-## Compiling
+Notes:
 
-> To compile Promod, simply place "Mod_Files" contents into <cod4-root>/mods/promod/, then run compile.bat. The compiled mod should spit out in mods/nc_promod.
+**When you are ready to use this mod on a server, place everything into a zip and rename it to `z_promod.iwd` and distribute that through FastDL, or any way you want. This is required.**
+
+* I ship some weird defaults in `promod_ruleset/custom_public.gsc` which you should change before using this mod.
+
+* There are ads in places, you *can* change them, but I'd appreciate if you left them;)
+```
+./promod_ruleset/custom_public.gsc: setDvar( "promod_hud_website", "chse.xyz/donate" ); // (avoid "//" here)
+./ui_mp/main.menu: text "chse.xyz/donate"
+```
+
+* Recommended server.cfg settings:
+```
+set promod_mode "custom_public" // promod mode, for a list of promod modes see attached readme
+set promod_enable_scorebot "0" // match-modes only
+```
+
+Compiling:
+
+To compile this mod, simply place the `Mod_Files` contents into a new folder in your `Mods` folder, then run compile.bat. The compiled mod should spit out in `mods/promod_rc`.

@@ -1,12 +1,7 @@
-:: Copyright (c) 2009-2017 Andreas Göransson <andreas.goransson@gmail.com>
-:: Copyright (c) 2009-2017 Indrek Ardel <indrek@ardel.eu>
-::
-:: This file is part of Call of Duty 4 Promod.
-::
-:: Call of Duty 4 Promod is licensed under Promod Modder Ethical Public License.
-:: Terms of license can be found in LICENSE.md document bundled with the project.
-
 @echo off
+
+SET mod_name=promod_rc
+:: Change me if you want, you must also change compile_fastfile.bat
 
 SET work_directory=%~dp0
 cd %work_directory%
@@ -26,7 +21,5 @@ copy mod.csv ..\..\zone_source /Y
 cd ..\..\bin
 linker_pc.exe -language english -compress -cleanup mod -verbose
 
-cd ..\mods\nc_promod
+cd ..\mods\%mod_name%
 copy ..\..\zone\english\mod.ff
-
-pause
