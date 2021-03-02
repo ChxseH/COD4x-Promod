@@ -17,6 +17,8 @@ Notes:
 ```
 set promod_mode "custom_public" // promod mode, for a list of promod modes see attached readme
 set promod_enable_scorebot "0" // match-modes only
+seta sv_contellname "PM: ^7"
+set g_disabledefcmdprefix 1
 ```
 
 Compiling:
