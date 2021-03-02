@@ -5,15 +5,15 @@ main()
 
 	// sd
 	setDvar( "scr_sd_bombtimer", 45 ); // [1->] (seconds)
-	setDvar( "scr_sd_defusetime", 7 ); // [1->] (seconds)
+	setDvar( "scr_sd_defusetime", 5 ); // [1->] (seconds)
 	setDvar( "scr_sd_multibomb", 0 ); // [0-1] (everyone can plant)
 	setDvar( "scr_sd_numlives", 1 ); // [0->] (amount of lives)
 	setDvar( "scr_sd_planttime", 5 ); // [1->] (seconds)
 	setDvar( "scr_sd_playerrespawndelay", 0 ); // [0->] (seconds)
-	setDvar( "scr_sd_roundlimit", 20 ); // [0->] (points)
+	setDvar( "scr_sd_roundlimit", 24 ); // [0->] (points)
 	setDvar( "scr_sd_roundswitch", 10 ); // [0->] (points)
-	setDvar( "scr_sd_scorelimit", 0 ); // [0->] (points)
-	setDvar( "scr_sd_timelimit", 1.75 ); // [0->] (minutes)
+	setDvar( "scr_sd_scorelimit", 12 ); // [0->] (points)
+	setDvar( "scr_sd_timelimit", 2.5 ); // [0->] (minutes)
 	setDvar( "scr_sd_waverespawndelay", 0 ); // [0->] (seconds)
 
 	// dom
