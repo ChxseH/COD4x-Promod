@@ -21,4 +21,4 @@ set promod_enable_scorebot "0" // match-modes only
 
 Compiling:
 
-To compile this mod, simply place the `Mod_Files` contents into a new folder in your `Mods` folder, then run compile.bat. The compiled mod should spit out in `mods/promod_rc`.
+To compile this mod, simply place [this repo's files](https://github.com/ChxseH/COD4x_Promod/archive/master.zip) contents into a new folder in your `Mods` folder, then run compile.bat. The compiled mod should spit out in `mods/promod_rc`.
