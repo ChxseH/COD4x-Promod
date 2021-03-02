@@ -8,6 +8,8 @@ cd %work_directory%
 
 del ..\%mod_name%\*.iwd > nul
 del ..\%mod_name%\mod.ff > nul
+rmdir ..\%mod_name%\scripts /s /q
+rmdir ..\%mod_name%\maps /s /q
 
 7za a -r -mx=9 -mpass=15 -mfb=258 -mmt=on -mtc=off -tzip ..\%mod_name%\%mod_name%.iwd weapons images sound
 7za a -r -mx=9 -mpass=15 -mfb=258 -mmt=on -mtc=off -tzip ..\%mod_name%\z_c_r.iwd promod_ruleset

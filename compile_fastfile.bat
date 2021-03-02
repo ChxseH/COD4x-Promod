@@ -23,3 +23,11 @@ linker_pc.exe -language english -compress -cleanup mod -verbose
 
 cd ..\mods\%mod_name%
 copy ..\..\zone\english\mod.ff
+
+cd %work_directory%
+mkdir ..\..\mods\%mod_name%\scripts 
+xcopy scripts ..\..\mods\%mod_name%\scripts /SY
+mkdir ..\..\mods\%mod_name%\maps\mp\gametypes
+xcopy maps\mp\gametypes\_callbacksetup.gsx ..\..\mods\%mod_name%\maps\mp\gametypes\_callbacksetup.gsx* /Y
+xcopy maps\mp\gametypes\_finalkillcam.gsc ..\..\mods\%mod_name%\maps\mp\gametypes\_finalkillcam.gsc* /Y
+xcopy maps\mp\gametypes\_globallogic_utils.gsc ..\..\mods\%mod_name%\maps\mp\gametypes\_globallogic_utils.gsc* /Y
