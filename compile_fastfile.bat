@@ -1,7 +1,7 @@
 @echo off
 
 SET mod_name=promod_rc
-:: Change me if you want, you must also change compile_fastfile.bat
+:: Change me if you want, you must also change compile.bat
 
 SET work_directory=%~dp0
 cd %work_directory%
