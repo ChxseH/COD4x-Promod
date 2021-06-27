@@ -9,8 +9,8 @@ Notes:
 
 * There are ads in places, you *can* change them, but I'd appreciate if you left them;)
 ```
-./promod_ruleset/custom_public.gsc: setDvar( "promod_hud_website", "chse.xyz/donate" ); // (avoid "//" here)
-./ui_mp/main.menu: text "chse.xyz/donate"
+./promod_ruleset/custom_public.gsc: setDvar( "promod_hud_website", "chse.dev/donate" ); // (avoid "//" here)
+./ui_mp/main.menu: text "chse.dev/donate"
 ```
 
 * Recommended server.cfg settings:
